@@ -1,0 +1,33 @@
+input[type='message'],input[type='email'],input[type='text'], textarea{
+    width:100%;
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top:6px;
+    box-sizing:border-box;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type='submit']{
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#MainMenu{
+    visibility: hidden;
+
+}
+
+header{
+    visibility: hidden;
+}
+
+footer{
+    visibility: hidden;
+}
+
